@@ -1,0 +1,44 @@
+:root{
+  --bg-color: #faf8f8;
+  --text-color: #0f0f0f;
+  
+}
+
+
+.App {
+  text-align: center;
+  background-color: slateblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: auto;
+}
+.buttons{
+ color: rgb(28, 236, 216);
+
+}
+back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 100px;
+  background: orange;
+  color: white;
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  box-shadow: 0 5px 10px #ccc;
+}
+
+.back-to-top:hover {
+  background: red;
+}
+
+
+
+
+
+  
+  
+  
